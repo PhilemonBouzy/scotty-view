@@ -9,7 +9,8 @@ import ScottyView
 -- The HTML file is a slightly different version of the "Real Estate or Travel"
 -- template from foundation.zurb.com.
 main :: IO ()
-main = scotty 3000 $ get (capture "/") (readHtmlFileView "index.html" info)
+main = scotty 3000 $
+  get (capture "/") (readHtmlFileView "executable/index.html" info)
 
 -- | A simple to-do list.
 toDoListView :: [String] -> String -> ActionM ()
