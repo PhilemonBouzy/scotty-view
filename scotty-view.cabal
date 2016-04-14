@@ -2,7 +2,10 @@
 -- documentation, see http://haskell.org/cabal/users-guide/
 
 name:                scotty-view
-version:             1
+description:         An extension for Scotty allowing its user to build an HTML
+                     page easily. This library can also read an HTML page from a
+                     file and modify it.
+version:             1.0.0
 author:              Philémon Bouzy
 maintainer:          philemon.bouzy@gmail.com
 category:            Web
