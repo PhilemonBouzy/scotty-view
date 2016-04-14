@@ -8,6 +8,7 @@ description:         An extension for Scotty allowing its user to build an HTML
 version:             1.0.0
 author:              Philémon Bouzy
 maintainer:          philemon.bouzy@gmail.com
+license:             MIT
 category:            Web
 build-type:          Simple
 cabal-version:       >=1.10
